@@ -15,8 +15,7 @@ import seaborn as sns
 housing = pd.DataFrame(pd.read_csv("../input/Housing.csv"))
 # Check the head of the dataset
 housing.head()
-housing = pd.DataFrame(pd.read_csv("/content/Housing.csv"))
-housing.head()
+
 housing.shape
 
 housing.info()
